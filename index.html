@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+    .div1{
+        height: 97vh;
+        width:97vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+        .div2{
+            width: 37%;
+            /* border:1px solid #9EC6F3; */
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            align-items: center;
+            height:60%;
+            border-radius:10px;
+            background-color: #FBFBFB;
+
+        }
+        h1{
+            letter-spacing:3px;
+            font-size:50px;
+            font-family: "Roboto", sans-serif;
+            color: #FF9B17;
+        }
+        h2{
+            font-family: "Roboto", sans-serif;
+            /* color: #F16767; */
+        }
+        .div3{
+            width:80%;
+            display: flex;
+            flex-direction: column;
+            gap:15px;
+            align-content: center;
+            align-items: center;
+        }
+        .div33{
+            width:100%;
+            display: flex;
+            flex-direction: column;
+            gap:15px;
+            align-content: center;
+            align-items: center;
+        }
+        input{
+            width:200%;
+            height: 40px;
+        }
+        button{
+            width:80%;
+            height:30px;
+            background-color: black;
+            color: beige;
+        }
+        a{
+            text-decoration: none;
+            margin-top:10px;
+        }
+        body{
+            background-color: #F5F5F5;
+        }
+        input[type="submit"]{
+            background-color: black;
+            color: beige;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <div class="div2">
+            
+            <h1>TANU</h1>
+            
+            <h2>Admin Login</h2>
+            <div class="div3">
+                <form action="done">
+                    <div class="div33">
+                        <input type="email" id="email" name="email" placeholder="Email">
+                <input type="password" id="password" name="password" placeholder="Password">
+                <input type="submit" id="button" name="button">
+                    </div>
+                    
+                </form>
+                
+                <!-- <button>Login</button> -->
+            </div>
+            <a href="">Forget Your Password?</a>
+        </div>
+    </div> 
+</body>
+</html>
